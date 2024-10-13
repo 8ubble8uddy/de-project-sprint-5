@@ -1,0 +1,3 @@
+from .bonus_system_ranks_loader import RanksLoader
+from .bonus_system_events_loader import EventsLoader
+from .bonus_system_users_loader import UsersLoader

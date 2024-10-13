@@ -1,0 +1,3 @@
+from .delivery_system_restaurants_loader import RestaurantsLoader
+from .delivery_system_couriers_loader import CouriersLoader
+from .delivery_system_deliveries_loader import DeliveriesLoader

@@ -1,0 +1,3 @@
+from .order_system_restaurants_loader import RestaurantsLoader
+from .order_system_orders_loader import OrdersLoader
+from .order_system_users_loader import UsersLoader

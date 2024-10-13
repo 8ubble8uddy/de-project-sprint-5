@@ -27,6 +27,8 @@ docker run \
 -p 3000:3000 \
 -p 3002:3002 \
 -p 15432:5432 \
+-v ${PWD}/src/dags:/lessons/dags \
+--env-file ${PWD}/.env \
 cr.yandex/crp1r8pht0n0gl25aug1/de-pg-cr-af:latest
 ```
 
